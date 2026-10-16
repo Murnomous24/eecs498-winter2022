@@ -71,6 +71,3 @@ desktop.ini
 *.swp
 *.swo
 *.tmp
-
-# Duplicate plain-text export; README.md is the maintained version
-/README.txt
