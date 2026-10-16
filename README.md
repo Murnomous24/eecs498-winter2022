@@ -1,4 +1,4 @@
-# EECS498: Deep Learning for Computer Vision
+# EECS498: Deep Learning for Computer Vision (Winter 2022)
 
 ## Repository Structure
 
