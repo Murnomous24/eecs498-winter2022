@@ -1,0 +1,76 @@
+# Local reference PDFs; see README.md and schedule.md for sources
+/slides/
+/papers/
+
+# Original downloads and generated submission archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Downloaded datasets (keep A5/two_digit_op.json and A6/images/ tracked)
+/data/
+/datasets/
+/assignments/A*/data/
+/assignments/A*/datasets/
+/mini-project/data/
+/mini-project/datasets/
+cifar-10-batches-py/
+MNIST/
+VOCdevkit/
+coco/
+imagenet/
+
+# Model weights, checkpoints, and generated numeric artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+checkpoints/
+
+# Training output, experiment trackers, and logs
+/outputs/
+/assignments/A*/outputs/
+/mini-project/outputs/
+runs/
+wandb/
+lightning_logs/
+*.log
+
+# Python / Jupyter caches and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local editor / operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+
+# Duplicate plain-text export; README.md is the maintained version
+/README.txt
