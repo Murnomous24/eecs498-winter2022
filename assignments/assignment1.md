@@ -1,9 +1,9 @@
 # Assignment 1
 
-In this assignment, you will first learn how to use [PyTorch](https://pytorch.org) on [Google Colab](https://colab.research.google.com) environment. You will then practice putting together a simple image classification pipeline, based on the k-Nearest Neighbor, and finally will learn how to use [Autograder](https://autograder.io/) for evaluating what you implement. The goals of this assignment are as follows:
+In this assignment, you will first learn how to use [PyTorch](https://pytorch.org) in a local Jupyter environment with an NVIDIA GPU. You will then practice putting together a simple image classification pipeline, based on the k-Nearest Neighbor, and finally will learn how to use [Autograder](https://autograder.io/) for evaluating what you implement. The goals of this assignment are as follows:
 
 - Develop proficiency with PyTorch tensors
-- Gain experience using notebooks on Google Colab
+- Gain experience using local Jupyter notebooks
 - Understand the basic Image Classification pipeline and the data-driven approach (train/predict stages)
 - Understand the train/val/test splits and the use of validation data for hyperparameter tuning
 - Implement and apply a k-Nearest Neighbor (kNN) classifier
@@ -21,22 +21,24 @@ The notebook **knn.ipynb** will walk you through implementing a kNN classifier. 
 
 ## Steps
 
-### 1. Download the zipped assignment file
+### 1. Use the local starter code
 
-- [Click here to download the starter code](https://github.com/nizne9/EECS498-WI22/tree/a4712f9738dbdd8272042588c9b15f8a03b3ef82/A1)
+The local starter code is in `A1/`. Set up the `eecs498` environment using the [README](../README.md#local-assignment-environment).
 
-### 2. Unzip all and open the Colab file from the Drive
+- [Original starter code (reference)](https://github.com/nizne9/EECS498-WI22/tree/a4712f9738dbdd8272042588c9b15f8a03b3ef82/A1)
 
-Once you unzip the downloaded content, please upload the folder to your Google Drive.
-Then, open each `*.ipynb` notebook file with Google Colab by right-clicking the \*.ipynb file.
-No installation or setup is required!
-For more information on using Colab, please see our [Colab tutorial](https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/colab.html).
+### 2. Open the local notebooks
 
-### 3. Open your corresponding \*.py from Google Colab and work on the assignment
+Open the `*.ipynb` files in `A1/` with Jupyter or VS Code and select the
+**Python (eecs498)** kernel. Run the local GPU and path setup cells first.
+The notebooks locate `A1/` automatically, use the local NVIDIA GPU,
+and keep downloaded data and generated results in that assignment directory.
 
-Next, we recommend editing your `*.py` file on Google Colab, set the ipython notebook and the code side by side.
+### 3. Work on the assignment
+
+Edit the corresponding local `*.py` file alongside the notebook in your editor.
 Work through the notebook, executing cells and implementing the codes in the `*.py` file as indicated.
-You can save your work, both `*.ipynb` and `*.py,` in Google Drive (click “File” -> “Save”) and resume later if you don’t want to complete it all at once.
+Save both the local `*.ipynb` and `*.py` files to keep your progress.
 
 While working on the assignment, keep the following in mind:
 

@@ -31,21 +31,23 @@ In the notebook **style\_transfer.ipynb**, you will learn how to create images w
 
 ## Steps
 
-### 1. Download the zipped assignment file
+### 1. Use the local starter code
 
-- [Click here to download the starter code](https://web.archive.org/web/20260616092844id_/https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/assignments/A6.zip)
+The local starter code is in `A6/`. Set up the `eecs498` environment using the [README](../README.md#local-assignment-environment).
 
-### 2. Unzip all and open the Colab file from the Drive
+- [Original starter code (reference)](https://web.archive.org/web/20260616092844id_/https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/assignments/A6.zip)
 
-Once you unzip the downloaded content, please upload the folder to your Google Drive.
-Then, open each `*.ipynb` notebook file with Google Colab by right-clicking the \*.ipynb file.
-We recommend editing your `*.py` file on Google Colab, set the ipython notebook and the code side by side.
-For more information on using Colab, please see our [Colab tutorial](https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/colab.html).
+### 2. Open the local notebooks
+
+Open the `*.ipynb` files in `A6/` with Jupyter or VS Code and select the
+**Python (eecs498)** kernel. Run the local GPU and path setup cells first.
+The notebooks locate `A6/` automatically, use the local NVIDIA GPU,
+and keep downloaded data and generated results in that assignment directory.
 
 ### 3. Work on the assignment
 
 Work through the notebook, executing cells and writing code in `*.py,` as indicated.
-You can save your work, both `*.ipynb` and `*.py,` in Google Drive (click “File” -> “Save”) and resume later if you don’t want to complete it all at once.
+Save both the local `*.ipynb` and `*.py` files to keep your progress.
 
 While working on the assignment, keep the following in mind:
 
