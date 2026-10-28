@@ -23,7 +23,7 @@ The notebook **convolutional\_networks.ipynb** will walk you through implementin
 
 ### 1. Use the local starter code
 
-The local starter code is in `A3/`. Set up the `eecs498` environment using the [README](../README.md#local-assignment-environment).
+The local starter code is in `A3/`. Set up the `eecs498` environment using the [README](<../README.md#local-assignment-environment>).
 
 - [Original starter code (reference)](https://web.archive.org/web/20260616092844id_/https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/assignments/A3.zip)
 

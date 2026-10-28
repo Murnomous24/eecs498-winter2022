@@ -23,7 +23,7 @@ The notebook **knn.ipynb** will walk you through implementing a kNN classifier. 
 
 ### 1. Use the local starter code
 
-The local starter code is in `A1/`. Set up the `eecs498` environment using the [README](../README.md#local-assignment-environment).
+The local starter code is in `A1/`. Set up the `eecs498` environment using the [README](<../README.md#local-assignment-environment>).
 
 - [Original starter code (reference)](https://github.com/nizne9/EECS498-WI22/tree/a4712f9738dbdd8272042588c9b15f8a03b3ef82/A1)
 
